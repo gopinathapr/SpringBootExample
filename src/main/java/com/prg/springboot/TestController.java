@@ -42,7 +42,7 @@ public class TestController {
 	String saveEmployee(@RequestBody Employee emp) {
 		try {
 			System.out.println(emp.toString());
-			String path = "C:\\Users\\611777858\\workspace\\SpringBoot\\Store\\";
+			String path = "C:\\Users\\workspace\\SpringBoot\\Store\\";
 			ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(path + emp.getName() + ".txt"));
 			out.writeObject(emp);
 			out.close();
@@ -58,7 +58,7 @@ public class TestController {
 		System.out.println("XML-->" + name);
 
 		Employee emp = new Employee();
-		String path = "C:\\Users\\611777858\\workspace\\SpringBoot\\Store\\";
+		String path = "C:\\Users\\workspace\\SpringBoot\\Store\\";
 
 		try {
 			/*
