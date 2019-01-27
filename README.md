@@ -1,5 +1,5 @@
 # SpringBootExample
 
 
-This is an an example project to learn GitHub
+This is an example project to learn GitHub
 
